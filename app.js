@@ -9,6 +9,17 @@ let count=0;//player1, player2
 //let isGameOver = "false";
 
 
+//for player name
+let inp=document.querySelector("input");
+let btn =document.querySelector(".btn");
+btn.addEventListener("click",function(){
+    console.log("add name");
+})
+
+
+
+
+
 //These are the winning conditions
 const winnerConditions = [[0, 1, 2], [3, 4, 5], [6, 7, 8],
 [0, 3, 6], [1, 4, 7], [2, 5, 8],
